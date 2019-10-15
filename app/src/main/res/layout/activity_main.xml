@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    android:background="@color/backgraund"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="92dp"
+            app:cardCornerRadius="5dp"
+            android:layout_marginTop="30dp">
+
+            <RelativeLayout
+                android:id="@+id/relativela"
+                android:layout_width="match_parent"
+                android:padding="16dp"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/img_fitur"
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:src="@drawable/ic_quran"/>
+
+                <TextView
+                    android:id="@+id/namaFitur"
+                    android:layout_width="match_parent"
+                    android:layout_marginLeft="24sp"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@+id/img_fitur"
+                    android:layout_toRightOf="@+id/img_fitur"
+                    android:textStyle="bold"
+                    android:textAllCaps="true"
+                    android:textSize="24sp"
+                    android:textColor="@color/warna_tulisan"
+                    android:text="@string/quran" />
+
+                <TextView
+                    android:id="@+id/des_fitur"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/namaFitur"
+                    android:layout_alignStart="@+id/namaFitur"
+                    android:layout_alignLeft="@+id/namaFitur"
+                    android:layout_alignEnd="@+id/namaFitur"
+                    android:layout_alignRight="@+id/namaFitur"
+                    android:text="@string/des_quran"
+                    android:textColor="@color/warna_tulisan" />
+            </RelativeLayout>
+
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="92dp"
+            app:cardCornerRadius="5dp"
+            android:layout_marginTop="30dp">
+
+            <RelativeLayout
+                android:id="@+id/relative_catatana"
+                android:layout_width="match_parent"
+                android:padding="16dp"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/img_catatana"
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:src="@drawable/ic_notepad"/>
+
+                <TextView
+                    android:id="@+id/namafiturcatatana"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="24sp"
+                    android:layout_toEndOf="@+id/img_catatana"
+                    android:layout_toRightOf="@+id/img_catatana"
+                    android:text="Catatan"
+                    android:textAllCaps="true"
+                    android:textColor="@color/warna_tulisan"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/des_fiturcatatana"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/namafiturcatatana"
+                    android:layout_alignStart="@+id/namafiturcatatana"
+                    android:layout_alignLeft="@+id/namafiturcatatana"
+                    android:layout_alignEnd="@+id/namafiturcatatana"
+                    android:layout_alignRight="@+id/namafiturcatatana"
+                    android:text="Buku catatan hafalan"
+                    android:textColor="@color/warna_tulisan" />
+
+            </RelativeLayout>
+
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="92dp"
+            app:cardCornerRadius="5dp"
+            android:layout_marginTop="30dp">
+
+            <RelativeLayout
+                android:id="@+id/relative_kompas"
+                android:layout_width="match_parent"
+                android:padding="16dp"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/imgfiturkompas"
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:src="@drawable/ic_compass"/>
+
+                <TextView
+                    android:id="@+id/namafiturkompas"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="24sp"
+                    android:layout_toEndOf="@+id/imgfiturkompas"
+                    android:layout_toRightOf="@+id/imgfiturkompas"
+                    android:text="@string/kompas"
+                    android:textAllCaps="true"
+                    android:textColor="@color/warna_tulisan"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/des_fiturTajwidws"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/namafiturkompas"
+                    android:layout_alignStart="@+id/namafiturkompas"
+                    android:layout_alignLeft="@+id/namafiturkompas"
+                    android:layout_alignEnd="@+id/namafiturkompas"
+                    android:layout_alignRight="@+id/namafiturkompas"
+                    android:text="@string/des_kompas"
+                    android:textColor="@color/warna_tulisan" />
+
+            </RelativeLayout>
+
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            app:cardCornerRadius="5dp">
+
+            <RelativeLayout
+                android:id="@+id/relative_doa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp">
+
+                <ImageView
+                    android:id="@+id/img_fiturdoa"
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:src="@drawable/ic_quran" />
+
+                <TextView
+                    android:id="@+id/namafiturdoa"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="24sp"
+                    android:layout_toEndOf="@+id/img_fiturdoa"
+                    android:layout_toRightOf="@+id/img_fiturdoa"
+                    android:text="@string/tajwid"
+                    android:textAllCaps="true"
+                    android:textColor="@color/warna_tulisan"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/des_fiturdoa"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/namafiturdoa"
+                    android:layout_alignStart="@+id/namafiturdoa"
+                    android:layout_alignLeft="@+id/namafiturdoa"
+                    android:layout_alignEnd="@+id/namafiturdoa"
+                    android:layout_alignRight="@+id/namafiturdoa"
+                    android:text="@string/des_tajwid"
+                    android:textColor="@color/warna_tulisan" />
+
+            </RelativeLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="92dp"
+            app:cardCornerRadius="5dp"
+            android:layout_marginTop="30dp">
+
+            <RelativeLayout
+                android:id="@+id/relative_catatan"
+                android:layout_width="match_parent"
+                android:padding="16dp"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/img_catatan"
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:src="@drawable/ic_praying"/>
+
+                <TextView
+                    android:id="@+id/namafiturcatatan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="24sp"
+                    android:layout_toEndOf="@+id/img_catatan"
+                    android:layout_toRightOf="@+id/img_catatan"
+                    android:text="@string/doa"
+                    android:textAllCaps="true"
+                    android:textColor="@color/warna_tulisan"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/des_fiturcatatan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/namafiturcatatan"
+                    android:layout_alignStart="@+id/namafiturcatatan"
+                    android:layout_alignLeft="@+id/namafiturcatatan"
+                    android:layout_alignEnd="@+id/namafiturcatatan"
+                    android:layout_alignRight="@+id/namafiturcatatan"
+                    android:text="@string/des_doa"
+                    android:textColor="@color/warna_tulisan" />
+
+            </RelativeLayout>
+
+
+
+        </androidx.cardview.widget.CardView>
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>

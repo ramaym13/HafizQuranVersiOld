@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Hafiz Quran</string>
+    <string name="asma">الفاتحة</string>
+    <string name="nama_surah">Al Fatihah</string>
+    <string name="arti_nama">Pembukaan</string>
+    <string name="_100">100</string>
+
+    <string name="text_ayat">أَوْ كَصَيِّبٍ مِّنَ ٱلسَّمَآءِ فِيهِ ظُلُمَٰتٌ وَرَعْدٌ وَبَرْقٌ يَجْعَلُونَ أَصَٰبِعَهُمْ فِىٓ ءَاذَانِهِم مِّنَ ٱلصَّوَٰعِقِ حَذَرَ ٱلْمَوْتِ وَٱللَّهُ مُحِيطٌۢ بِٱلْكَٰفِرِينَ</string>
+    <string name="transtale">atau seperti (orang-orang yang ditimpa) hujan lebat dari langit disertai gelap gulita, guruh dan kilat; mereka menyumbat telinganya dengan anak jarinya, karena (mendengar suara) petir, sebab takut akan mati. Dan Allah meliputi orang-orang yang kafir.</string>
+
+    <string name="quran">al-qur’an</string>
+    <string name="des_quran">Baca alquran berdasarkan Surah </string>
+
+    <string name="kompas">kompas</string>
+    <string name="des_kompas">Mencari Arah Kiblat</string>
+
+    <string name="tajwid">tajwid</string>
+    <string name="des_tajwid">Aturan pembacaan dalam al-quran</string>
+
+    <string name="doa">do’a</string>
+    <string name="des_doa">Kumpulan doa harian</string>
+</resources>

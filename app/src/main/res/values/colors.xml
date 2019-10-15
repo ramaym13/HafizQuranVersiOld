@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#009688</color>
+    <color name="colorPrimaryDark">#00796B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="warna1">#B3D81B60</color>
+    <color name="warna2">#B33949AB</color>
+    <color name="warna3">#FFFFFF</color>
+
+
+    <color name="backgraund">#F4F3F3</color>
+    <color name="warna_tulisan">#4DB6AC</color>
+    <color name="warna_tulisan_arab">#828282</color>
+    <color name="warna_putih">#FFFFFF</color>
+</resources>
